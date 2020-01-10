@@ -1,0 +1,77 @@
+﻿body{
+	margin:0;
+	font-family:Yu Gothic Medium,微軟正黑體;
+}
+
+/*header start*/
+header {
+	height:80px;
+	border-bottom:#d4d7dd solid 1px;
+	border-left:#d4d7dd solid 1px;
+	border-right:#d4d7dd solid 1px;
+}
+	header h1{
+		float:left;
+		width:50px;
+		height:50px;
+		font-size:18px;
+		text-indent:60px;
+		font-family:Arial Black;
+}
+
+	header ul.nav{
+		float:right;
+		line-height:80px;
+		width:160px;
+		list-style:none;
+		margin:0;
+}
+	header ul.nav li{
+		float:left;
+		width:60px;
+		text-align:center;
+		
+}
+	header ul.nav li a img{
+		width:20px;
+		margin-top:27px;
+	}
+	header ul.nav li a{
+		text-decoration:none;
+	}
+	header ul.nav li ul{
+		display:none;
+}
+/*my work start*/
+
+	
+	#mywork h3{
+		text-align:center;
+		font-size:0.8em;
+		margin:50px auto 50px auto;
+		width:120px;
+		border:1px solid #d4d7dd;
+		padding:5px 10px;
+	}
+	
+	.square{
+		width:300px;
+		height:300px;
+		float:left;
+		overflow:hidden;	
+
+	}
+	
+	.square img{
+		width:300px;
+		background-size:cover;
+	}
+
+#mywork .square{
+	/*background:#ccc url('../../style/h1.jpg') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+
+#mywork img{
+	opacity: 0.8;  /*把原本底下的圖片改透明度*/
+}

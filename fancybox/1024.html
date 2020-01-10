@@ -1,0 +1,166 @@
+﻿<html>
+<head>
+<title>fancy box</title>
+<link href="jquery.fancybox.css" rel="stylesheet">
+<link href="helpers/jquery.fancybox-buttons.css" rel="stylesheet">
+<link href="helpers/jquery.fancybox-thumbs.css" rel="stylesheet">
+
+<script src="jquery-1.12.3.min.js" ></script>
+<script src="jquery.fancybox.js" ></script>
+<script src="jquery.mousewheel.pack.js"></script> <!--滑鼠可以滾照片-->
+<script src="helpers/jquery.fancybox-buttons.js"></script>
+<script src="helpers/jquery.fancybox-thumbs.js"></script>
+<style>
+	body{
+		font-family:微軟正黑體;
+		margin:20px  40px;
+	}
+	h1{
+		text-align:right;
+		font-size:3em;
+		color:#FFE73B;
+		font-style:bold;
+	}
+	
+	h2{
+		border-top:5px dashed #B2BEE1;
+		margin-top:42px;
+		padding-top:30px;
+	}
+</style>
+
+<script>
+	$('document').ready(function() {
+		$('a.first').fancybox();
+		
+		$('a.second_1').fancybox({
+			openEffect: 'elastic', //縮放的感覺
+			openSpeed: 600,
+			closeEffect: 'fade',
+			closeSpeed: 1200,    
+		});
+		
+		$('a.second_2').fancybox({
+			openEffect: 'elastic', //縮放的感覺
+			closeEffect: 'fade',	
+		});
+		
+		$('a.second_3').fancybox({
+			openEffect: 'fade', 
+			openSpeed: 600,
+			closeEffect: 'fade',
+			closeSpeed: 600,    
+		});
+		
+		$('a.second_4').fancybox({
+			openEffect: 'none',
+			closeEffect: 'fade',
+			closeSpeed: 2000,    
+		});
+		
+		$('a.third_1').fancybox({
+			helpers: {
+				title: {
+					type: 'inside'
+				}
+			}
+		});
+		
+		
+		$('a.third_2').fancybox({
+			helpers: {
+				title: {
+					type: 'outside'
+				}
+			}
+		});
+		
+		$('a.third_3').fancybox({
+			helpers: {
+				title: {
+					type: 'float'
+				}
+			}
+		});
+		$('a.third_4').fancybox({
+			helpers: {
+				title: {
+					type: 'over'
+				}
+			}
+		});
+	
+
+		$('a.four').fancybox({
+			arrows:false,
+			closeBtn:false,
+			helpers: {
+				buttons: {},
+				title: {
+					type: 'inside'
+				}
+
+			}
+		});
+		
+		$('a.five').fancybox({
+			helpers: {
+				thumbs: {
+					width: 60,
+					height: 60
+				}
+			}
+		});
+	});
+</script>
+</head>
+<body>
+<h1>fancybox</h1>
+<h2>eg1. 基本設置</h2>
+<p>
+	<a href="images/001.jpg" class="first" rel="first_box"><img src="images/1.jpg"></a>  <!-- rel是分組-->
+	<a href="images/002.jpg" class="first" rel="first_box"><img src="images/2.jpg"></a>
+	<a href="images/003.jpg" class="first" rel="first_box"><img src="images/3.jpg"></a>
+	<a href="images/004.jpg" class="first" rel="first_box"><img src="images/4.jpg"></a>
+	<a href="images/005.jpg" class="first" rel="first_box"><img src="images/5.jpg"></a>
+	<a href="images/006.jpg" class="first" rel="first_box"><img src="images/6.jpg"></a>
+</p>
+
+<h2>eg2. effect</h2>
+<p>
+	<a href="images/001.jpg" class="second_1" rel="sec_box"><img src="images/1.jpg"></a>  <!-- rel是分組-->
+	<a href="images/002.jpg" class="second_2" rel="sec_box"><img src="images/2.jpg"></a>
+	<a href="images/003.jpg" class="second_3" rel="sec_box"><img src="images/3.jpg"></a>
+	<a href="images/004.jpg" class="second_4" rel="sec_box"><img src="images/4.jpg"></a>
+
+</p>
+
+<h2>eg3. 圖說</h2>
+<p>
+	<a href="images/001.jpg" class="third_1" rel="third_box" title="櫻花紛落"><img src="images/1.jpg"></a>  <!-- rel是分組-->
+	<a href="images/002.jpg" class="third_2" rel="third_box" title="彼岸花"><img src="images/2.jpg"></a>
+	<a href="images/003.jpg" class="third_3" rel="third_box" title="櫻花"><img src="images/3.jpg"></a>
+	<a href="images/004.jpg" class="third_4" rel="third_box" title="滿開滿谷的櫻花"><img src="images/4.jpg"></a>
+</p>
+
+<h2>eg4. 控制組</h2>
+<p>
+	<a href="images/001.jpg" class="four" rel="four" title="櫻花紛落"><img src="images/1.jpg"></a>  <!-- rel是分組-->
+	<a href="images/002.jpg" class="four" rel="four" title="彼岸花"><img src="images/2.jpg"></a>
+	<a href="images/003.jpg" class="four" rel="four" title="櫻花"><img src="images/3.jpg"></a>
+	<a href="images/004.jpg" class="four" rel="four" title="滿開滿谷的櫻花"><img src="images/4.jpg"></a>
+	<a href="images/005.jpg" class="four" rel="four" title="櫻花ZOOMIN"><img src="images/5.jpg"></a>
+	<a href="images/006.jpg" class="four" rel="four" title="櫻花SAKURA"><img src="images/6.jpg"></a>
+</p>
+
+<h2>eg5. 縮圖</h2>
+<p>
+	<a href="images/001.jpg" class="five" rel="five" title="櫻花紛落"><img src="images/1.jpg"></a>  <!-- rel是分組-->
+	<a href="images/002.jpg" class="five" rel="five" title="彼岸花"><img src="images/2.jpg"></a>
+	<a href="images/003.jpg" class="five" rel="five" title="櫻花"><img src="images/3.jpg"></a>
+	<a href="images/004.jpg" class="five" rel="five" title="滿開滿谷的櫻花"><img src="images/4.jpg"></a>
+	<a href="images/005.jpg" class="five" rel="five" title="櫻花ZOOMIN"><img src="images/5.jpg"></a>
+	<a href="images/006.jpg" class="five" rel="five" title="櫻花SAKURA"><img src="images/6.jpg"></a>
+</p>
+</body>
+</html>

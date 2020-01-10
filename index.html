@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>作品</title>
+
+<link href="css/css.css" rel="stylesheet" media="screen and (min-width: 960px)">
+<link href="css/css_phone.css" rel="stylesheet" media="screen and (max-width: 959px)">
+<link href="css/images.css" rel="stylesheet">
+<link href="fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="bootstrap-4.3.1/css/bootstrap.css" rel="stylesheet">
+
+ <script src="js/jquery-3.4.1.js"></script> 
+ <script src="js/images.js"></script> 
+ <script src="fancybox/jquery.fancybox.js"></script>
+ <script>
+		$('document').ready(function() {
+		setInterval(callMe,2000);  //repeat
+			function callMe(){
+			$('.logo h1').animate({fontSize: '2em', opacity: '0.4'}, 1000);
+			$('.logo h1').animate({width: '300px', opacity: '0.8'}, "slow");
+			$('.logo h1').animate({fontSize: '1em', opacity: '0.4'}, "slow");
+			$('.logo h1').animate({width: '1px', opacity: '0.8'}, 2000);
+			}
+		$('div.square a').fancybox({
+			openEffect: 'elastic', //縮放的感覺
+			closeEffect: 'fade',	
+		});
+	});
+
+
+ </script>
+</head>
+<body>
+<div class="container-fluid">
+	<header class="container">
+		<div class="logo">
+			<h1>Illustration</h1>
+		</div>
+		<div>
+			<ul class="nav">
+				<li><a href="https://www.facebook.com/profile.php?id=100002523022967" target="_blank"><img src="https://live.staticflickr.com/65535/49027299782_119f19e9b3.jpg"></a></li>
+				<li><a href="https://www.instagram.com/weini0/" target="_blank"><img src="https://live.staticflickr.com/65535/49027299762_8466082de2.jpg"></a></li>
+			</ul>
+		</div>
+	</header>
+</div>
+<div class="container-fluid">
+	<div class="container">
+		<div id="mywork">
+			<div>
+				<h3>我的插畫</h3>
+			</div>
+			<div class="row">
+				<div class="">
+					<div class=" square first ">
+						<a target="_blank" href="style/l1.jpg">          
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square second ">
+						<a target="_blank" href="style/l2.jpg">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square third">
+						<a target="_blank" href="style/l3.jpg">
+							<img src="style/ya.jpg"  alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square fourth">
+						<a target="_blank" href="style/l4.jpg">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square fifth">
+						<a target="_blank" href="style/c1.png">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square sixth">
+						<a target="_blank" href="style/c2.png">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square seventh">
+						<a target="_blank" href="style/c3.png">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square eighth">
+						<a target="_blank" href="style/c4.png">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square ninth">
+						<a target="_blank" href="style/c5.png">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square tenth">
+						<a target="_blank" href="style/catttt_l.jpg">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square eleven">
+						<a target="_blank" href="style/g_b2.jpg">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square twelve">
+						<a target="_blank" href="style/g_b.jpg">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square thirteen">
+						<a target="_blank" href="style/披風少女.png">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square fourteen">
+						<a target="_blank" href="style/mayday.jpg">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="square flower">
+						<a target="_blank" href="style/f-01.jpg">
+							<img src="style/ya.jpg" alt="mayday">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+</body>
+</html>

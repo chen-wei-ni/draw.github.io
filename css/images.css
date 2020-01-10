@@ -1,0 +1,72 @@
+﻿.first {
+	background:#ccc url('../style/h1.jpg') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+	
+}
+
+.second {
+	background:#ccc url('../style/h2.jpg') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+
+.third {
+	background:#ccc url('../style/h3.jpg') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+
+.fourth {
+	background:#ccc url('../style/h4.jpg') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+
+.fifth {
+	background:#ccc url('../style/c1.png') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+
+.sixth {
+	background:#ccc url('../style/c2.png') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+
+.seventh {
+	background:#ccc url('../style/c3.png') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+
+.eighth {
+	background:#ccc url('../style/c4.png') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+
+.ninth {
+	background:#ccc url('../style/c5.png') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+.tenth {
+	background:#ccc url('../style/catttt.jpg') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+.eleven {
+	background:#ccc url('../style/g_s_2.png') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+.twelve {
+	background:#ccc url('../style/g_s.png') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+.thirteen {
+	background:#ccc url('../style/g_s_3.png') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+.fourteen {
+	background:#ccc url('../style/mayday.jpg') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+.flower {
+	background:#ccc url('../style/f-01.jpg') center top no-repeat;   /*圖片外加的class將上遮蓋的圖片*/
+	background-size:cover;
+}
+/*#mywork img{
+	opacity: 0.7;  /*把原本底下的圖片改透明度*/
+}
